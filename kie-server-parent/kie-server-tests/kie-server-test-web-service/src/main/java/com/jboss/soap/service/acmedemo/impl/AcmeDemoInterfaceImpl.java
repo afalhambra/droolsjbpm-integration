@@ -20,6 +20,8 @@ public class AcmeDemoInterfaceImpl implements AcmeDemoInterface {
         Flight outbound = new Flight();
         outbound.setCompany("EasyJet");
         outbound.setPlaneId(12345);
+
+
         outbound.setRatePerPerson(outboundBD);
         outbound.setStartCity(startCity);
         outbound.setTargetCity(endCity);
